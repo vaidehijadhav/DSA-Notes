@@ -43,8 +43,8 @@ int main(){
     // cout<<sizeof(arr)<<endl;  //40 (size of the whole array)
 
     // int *p=arr;
-    // cout<<sizeof(p)<<endl;
-    // cout<<sizeof(*p)<<endl;
+    // cout<<sizeof(p)<<endl;    // 8 (size of pointer)
+    // cout<<sizeof(*p)<<endl;   // 4 (size of int)
     
     // char ch[10]="vaidehi";
     // char *c=ch;

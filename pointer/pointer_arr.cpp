@@ -34,10 +34,10 @@ int main(){
     // cout<<*arr+2<<endl;    //value at 0th index +2
 
     // int i=0;
-    // cout<<arr[i]<<endl;
-    // cout<<i[arr]<<endl;
-    // cout<<*(arr+i)<<endl;
-    // cout<<*(i+arr)<<endl;
+    // cout<<arr[i]<<endl;    //value at 0th index
+    // cout<<i[arr]<<endl;    //value at 0th index
+    // cout<<*(arr+i)<<endl;  //value at 0th index
+    // cout<<*(i+arr)<<endl;  //value at 0th index
 
     // int arr[10];
     // cout<<sizeof(arr)<<endl;

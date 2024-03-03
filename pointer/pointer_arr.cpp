@@ -60,15 +60,15 @@ int main(){
     // char name[9]="sherBano";
     // char *c=&name[0];
 
-    // cout<<name<<endl;
-    // cout<<&name<<endl;
-    // cout<<*(name+3)<<endl;
+    // cout<<name<<endl;  // print whole string
+    // cout<<&name<<endl;  // print address of whole string
+    // cout<<*(name+3)<<endl;  // print 3rd index character
     // cout<<c<<endl;   // print whole string
-    // cout<<&c<<endl;
-    // cout<<*(c+3)<<endl;
-    // cout<<c+2<<endl; // print string from 2nd index charcater
-    // cout<<*c<<endl;
-    // cout<<c+8<<endl;
+    // cout<<&c<<endl;        // print address of pointer
+    // cout<<*(c+3)<<endl;    // print 3rd index character
+    // cout<<c+2<<endl;       // print string from 2nd index charcater
+    // cout<<*c<<endl;        // print 0th index character
+    // cout<<c+8<<endl;       // print string from 8th index character     
 
     // int arr[10] = {1,2,3,4};
 

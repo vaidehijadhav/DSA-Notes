@@ -18,19 +18,20 @@ int main(){
 
     int arr[4]={12,14,26,10};
 
-    cout<<arr<<endl;  //base address
-    cout<<&arr<<endl;   //base address
-    cout<<arr[2]<<endl;  // value at 2nd index
-    cout<<&arr[2]<<endl;  //address of 2nd index value
+    // cout<<arr<<endl;  //base address
+    // cout<<&arr<<endl;   //base address
+    // cout<<arr[2]<<endl;  // value at 2nd index
+    // cout<<&arr[2]<<endl;  //address of 2nd index value
 
     // int * p=arr;
-    // cout<<p<<endl;
-    // cout<<&p<<endl;
+    // cout<<p<<endl;    //base address of array
+    // cout<<&p<<endl;   //address of pointer
 
-    // cout<<*arr<<endl;
-    // cout<<*arr+1<<endl;
-    // cout<<*(arr)+1<<endl;
-    // cout<<*(arr+1)<<endl;
+    // cout<<*arr<<endl;      //value at 0th index
+    // cout<<*arr+1<<endl;    //value at 0th index +1
+    // cout<<*(arr)+1<<endl;  //value at 0th index +1 
+    // cout<<*(arr+1)<<endl;  //value at 1st index
+    // cout<<*arr+2<<endl;    //value at 0th index +2
 
     // int i=0;
     // cout<<arr[i]<<endl;

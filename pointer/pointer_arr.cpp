@@ -68,7 +68,11 @@ int main(){
     // cout<<*(c+3)<<endl;    // print 3rd index character
     // cout<<c+2<<endl;       // print string from 2nd index charcater
     // cout<<*c<<endl;        // print 0th index character
-    // cout<<c+8<<endl;       // print string from 8th index character     
+    // cout<<c+8<<endl;       // print string from 8th index character  
+
+    char ch = 'k';
+    char *c = &ch;
+    cout<<c<<endl;    //print till find null character
 
     // int arr[10] = {1,2,3,4};
 

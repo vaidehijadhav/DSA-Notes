@@ -40,7 +40,7 @@ int main(){
     // cout<<*(i+arr)<<endl;  //value at 0th index
 
     // int arr[10];
-    // cout<<sizeof(arr)<<endl;
+    // cout<<sizeof(arr)<<endl;  //40 (size of the whole array)
 
     // int *p=arr;
     // cout<<sizeof(p)<<endl;

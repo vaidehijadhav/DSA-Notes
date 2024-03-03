@@ -47,15 +47,15 @@ int main(){
     // cout<<sizeof(*p)<<endl;   // 4 (size of int)
     
     // char ch[10]="vaidehi";
-    // char *c=ch;
+    // char *c=ch;   
 
-    // cout<<ch<<endl;
-    // cout<<&ch<<endl;
-    // cout<<ch[0]<<endl;
+    // cout<<ch<<endl;   // print whole string
+    // cout<<&ch<<endl;  // print address of whole string
+    // cout<<ch[0]<<endl;  // print 0th index character
 
-    // cout<<&c<<endl;
-    // cout<<*c<<endl;
-    // cout<<c<<endl;
+    // cout<<&c<<endl;     // print address of pointer
+    // cout<<*c<<endl;     // print 0th index character
+    // cout<<c<<endl;      // print whole string
 
     // char name[9]="sherBano";
     // char *c=&name[0];

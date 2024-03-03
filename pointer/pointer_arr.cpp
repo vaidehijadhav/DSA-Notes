@@ -16,12 +16,12 @@ void update(int *p){
 
 int main(){
 
-    // int arr[4]={12,14,26,10};
+    int arr[4]={12,14,26,10};
 
-    // cout<<arr<<endl;
-    // cout<<&arr<<endl;
-    // cout<<arr[2]<<endl;
-    // cout<<&arr[2]<<endl;
+    cout<<arr<<endl;  //base address
+    cout<<&arr<<endl;   //base address
+    cout<<arr[2]<<endl;  // value at 2nd index
+    cout<<&arr[2]<<endl;  //address of 2nd index value
 
     // int * p=arr;
     // cout<<p<<endl;
@@ -90,14 +90,14 @@ int main(){
     //     cout<<arr[i]<<" ";
     // }cout<<endl;
 
-    int a=5;
-    cout<<"Address of a is "<<&a<<endl;
-    int *ptr=&a;
-    cout<<"address stored in ptr is "<<ptr<<endl;
-    cout<<"address of ptr is "<<&ptr<<endl;
+    // int a=5;
+    // cout<<"Address of a is "<<&a<<endl;
+    // int *ptr=&a;
+    // cout<<"address stored in ptr is "<<ptr<<endl;
+    // cout<<"address of ptr is "<<&ptr<<endl;
 
-    update(ptr);
-    cout<<"value of a is: "<<a<<endl;
+    // update(ptr);
+    // cout<<"value of a is: "<<a<<endl;
 
     return 0;
 }

@@ -36,5 +36,17 @@ int main(){
     cout<<"Intially name: "<<name<<endl;
     reverseCharArray(name);
     cout<<"After reverse: "<<name<<endl;
+
+    // char ch[100];
+    // cin>>ch;
+
+    // cout<<ch;
+
+    // char name[100];
+    // cin>>name;
+
+    // for(int i = 0; i<9;i++){
+    //     cout<<"Index: "<<i<<" value: " <<name[i]<<endl;
+    // }
     return 0;
 }
